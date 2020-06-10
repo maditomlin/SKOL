@@ -17,6 +17,7 @@
 		DBAED0312490015C00AB0B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAED02F2490015C00AB0B6D /* LaunchScreen.storyboard */; };
 		DBAED03C2490015D00AB0B6D /* KWKfinal2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED03B2490015D00AB0B6D /* KWKfinal2020Tests.swift */; };
 		DBAED0472490015D00AB0B6D /* KWKfinal2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED0462490015D00AB0B6D /* KWKfinal2020UITests.swift */; };
+		DBAED05724914F6D00AB0B6D /* FutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED05624914F6D00AB0B6D /* FutureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DBAED0422490015D00AB0B6D /* KWKfinal2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWKfinal2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAED0462490015D00AB0B6D /* KWKfinal2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWKfinal2020UITests.swift; sourceTree = "<group>"; };
 		DBAED0482490015D00AB0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAED05624914F6D00AB0B6D /* FutureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				DBAED0322490015C00AB0B6D /* Info.plist */,
 				DBAED02A2490015700AB0B6D /* KWKfinal2020.xcdatamodeld */,
 				2E2AD718249129B10028EAA2 /* ACT View Controller.swift */,
+				DBAED05624914F6D00AB0B6D /* FutureViewController.swift */,
 			);
 			path = KWKfinal2020;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAED02C2490015700AB0B6D /* KWKfinal2020.xcdatamodeld in Sources */,
+				DBAED05724914F6D00AB0B6D /* FutureViewController.swift in Sources */,
 				DBAED0262490015700AB0B6D /* ViewController.swift in Sources */,
 				DBAED0222490015700AB0B6D /* AppDelegate.swift in Sources */,
 				2E2AD719249129B10028EAA2 /* ACT View Controller.swift in Sources */,

@@ -108,10 +108,10 @@
                                 <rect key="frame" x="0.0" y="215" width="414" height="358"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96621192889543139" green="0.41086984796897014" blue="0.044299168434491096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Both the ACT and SAT are entrance exams given to students; most universities will accept both exams and base part of the admission decision on this score. 
+                                <string key="text">Both the ACT and SAT are entrance exams given to students; most universities will accept both exams and base part of the admission decision on this score. 
 The ACT features a science section, focusing primarily on critical thinking skills; this section is not included on the SAT. Both feature specific sections for both math and english.
 The SAT scores test from 400-1600, while the ACT scores range from 1-36. The specific score recommended for each test will depend on the college university you would like to attend. Many university leaders recommend taking both to assess which score reflects your skills better.
-</mutableString>
+</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -187,10 +187,10 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
             </objects>
             <point key="canvasLocation" x="1119" y="1112"/>
         </scene>
-        <!--View Controller-->
+        <!--Future View Controller-->
         <scene sceneID="vEV-MS-4KR">
             <objects>
-                <viewController id="lpa-nW-2B1" sceneMemberID="viewController">
+                <viewController id="lpa-nW-2B1" customClass="FutureViewController" customModule="KWKfinal2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Y6-Re-Qn0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,6 +260,9 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                 <state key="normal" title="Career Colleges" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="CCButtomTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="QYk-PS-lze"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9O-4j-JVt">
                                 <rect key="frame" x="0.0" y="160" width="238" height="37"/>
@@ -269,6 +272,9 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                 <state key="normal" title="How to Choose" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="HCButtonTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="Evl-gz-Hk7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0Z-TX-9bn">
                                 <rect key="frame" x="209" y="160" width="176" height="37"/>
@@ -278,6 +284,9 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                 <state key="normal" title="Major List" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="MLButtonTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="iGe-8W-VQo"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vfX-Yk-Kfa">
                                 <rect key="frame" x="0.0" y="482" width="414" height="236"/>
@@ -297,16 +306,22 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                                 <state key="normal" title="Career List" backgroundImage="square.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="CLButtonTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="RyW-pz-8Ax"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.63529411764705879" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="q2p-8U-xIL"/>
                     </view>
                     <navigationItem key="navigationItem" id="xEy-SB-Lcn"/>
+                    <connections>
+                        <outlet property="CCButtonTapped" destination="vS0-cd-fqV" id="ZEx-vS-Jse"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gA6-Yl-TBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2686.9565217391305" y="1157.8125"/>
+            <point key="canvasLocation" x="2962" y="980"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -355,7 +370,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-117" y="114"/>
+            <point key="canvasLocation" x="296" y="-130"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cC4-r4-5zc">
@@ -398,7 +413,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lpa-nW-2B1" kind="show" id="ewH-i2-a9C"/>
+                                    <segue destination="lpa-nW-2B1" kind="show" id="JJ9-Pm-E5C"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKOL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3h-k1-iLE">
@@ -420,10 +435,10 @@ Start by choosing a main focus like technology, engineering, business, etc. then
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0W2-yE-pIf"/>
+        <segue reference="QjF-gy-nAH"/>
         <segue reference="AsM-SN-abg"/>
-        <segue reference="dbJ-0l-mdm"/>
-        <segue reference="b1X-bH-9Qa"/>
+        <segue reference="XoT-cc-q9u"/>
+        <segue reference="tMs-6o-L1d"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
