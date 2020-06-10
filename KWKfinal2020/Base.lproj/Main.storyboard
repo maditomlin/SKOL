@@ -124,7 +124,7 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ha7-rp-m4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="1255"/>
+            <point key="canvasLocation" x="158" y="621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dx2-H4-LJu">
@@ -185,7 +185,7 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3q-8f-rLH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="1112"/>
+            <point key="canvasLocation" x="1141" y="880"/>
         </scene>
         <!--Future View Controller-->
         <scene sceneID="vEV-MS-4KR">
@@ -318,7 +318,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gA6-Yl-TBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2416" y="621"/>
+            <point key="canvasLocation" x="2119" y="590"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -433,7 +433,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="QjF-gy-nAH"/>
-        <segue reference="AsM-SN-abg"/>
+        <segue reference="qLj-ay-QFj"/>
         <segue reference="XoT-cc-q9u"/>
         <segue reference="tMs-6o-L1d"/>
     </inferredMetricsTieBreakers>
