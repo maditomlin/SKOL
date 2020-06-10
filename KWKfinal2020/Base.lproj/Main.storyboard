@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="fHv-Oo-4VL">
             <objects>
-                <viewController id="UA8-fy-E5F" sceneMemberID="viewController">
+                <viewController id="UA8-fy-E5F" customClass="ACT_View_Controller" customModule="KWKfinal2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Wk-iM-BMx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NZs-fV-q95" kind="show" id="lkZ-ID-8Hd"/>
+                                    <segue destination="NZs-fV-q95" kind="show" id="dbJ-0l-mdm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIm-dK-nva">
@@ -58,21 +58,64 @@
                                     <segue destination="lpa-nW-2B1" kind="show" id="AsM-SN-abg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4Y-FG-2Lt">
-                                <rect key="frame" x="20" y="115" width="93" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRC-5q-tAZ">
+                                <rect key="frame" x="201" y="112" width="140" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="SAT BUTTON"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="1" green="0.85098039215686272" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="ACT" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ACTButtonTapped:" destination="UA8-fy-E5F" eventType="touchUpInside" id="ryO-py-gUd"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1v-QR-r92">
-                                <rect key="frame" x="19" y="153" width="94" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02Y-VA-eal">
+                                <rect key="frame" x="90" y="159" width="234" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ACT BUTTON"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="1" green="0.85098039219999999" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Khan Academy" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="KhanButtonTapped:" destination="UA8-fy-E5F" eventType="touchUpInside" id="4bd-KD-oPP"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqL-vt-OcN">
-                                <rect key="frame" x="36" y="191" width="61" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oc2-4Y-HHc">
+                                <rect key="frame" x="53" y="112" width="140" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="BUTTON"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="1" green="0.85098039219999999" blue="0.43529411759999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SAT" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SATButtonTapped:" destination="UA8-fy-E5F" eventType="touchUpInside" id="6s4-0f-AWA"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-Nb-vbR">
+                                <rect key="frame" x="0.0" y="596" width="414" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96621192889999996" green="0.41086984799999998" blue="0.044299168430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Khan Academy is a great resource for students preparing for the SAT. Past scores can be linked, making the studying experience extremely personalized.
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0aa-Db-cYb">
+                                <rect key="frame" x="0.0" y="215" width="414" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96621192889543139" green="0.41086984796897014" blue="0.044299168434491096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Both the ACT and SAT are entrance exams given to students; most universities will accept both exams and base part of the admission decision on this score. 
+The ACT features a science section, focusing primarily on critical thinking skills; this section is not included on the SAT. Both feature specific sections for both math and english.
+The SAT scores test from 400-1600, while the ACT scores range from 1-36. The specific score recommended for each test will depend on the college university you would like to attend. Many university leaders recommend taking both to assess which score reflects your skills better.
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.49411764705882355" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="X2O-sW-Swn"/>
@@ -81,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ha7-rp-m4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60.869565217391312" y="1040.625"/>
+            <point key="canvasLocation" x="-204" y="1255"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dx2-H4-LJu">
@@ -210,7 +253,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vS0-cd-fqV">
-                                <rect key="frame" x="-16" y="77" width="238" height="37"/>
+                                <rect key="frame" x="0.0" y="112" width="238" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -219,7 +262,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9O-4j-JVt">
-                                <rect key="frame" x="-16" y="160" width="238" height="37"/>
+                                <rect key="frame" x="0.0" y="160" width="238" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -227,17 +270,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXW-W9-uJk">
-                                <rect key="frame" x="221" y="77" width="176" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
-                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Career List" backgroundImage="square.fill" catalog="system">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0Z-TX-9bn">
-                                <rect key="frame" x="218" y="160" width="176" height="37"/>
+                                <rect key="frame" x="209" y="160" width="176" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
                                 <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -255,6 +289,15 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXW-W9-uJk">
+                                <rect key="frame" x="209" y="112" width="176" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Career List" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.63529411764705879" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="q2p-8U-xIL"/>
@@ -377,9 +420,9 @@ Start by choosing a main focus like technology, engineering, business, etc. then
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QjF-gy-nAH"/>
-        <segue reference="ewH-i2-a9C"/>
-        <segue reference="y2e-yY-3ba"/>
+        <segue reference="0W2-yE-pIf"/>
+        <segue reference="AsM-SN-abg"/>
+        <segue reference="dbJ-0l-mdm"/>
         <segue reference="b1X-bH-9Qa"/>
     </inferredMetricsTieBreakers>
     <resources>
