@@ -30,9 +30,6 @@
                                 <state key="normal" title="Home" backgroundImage="square.grid.4x3.fill" catalog="system">
                                     <color key="titleColor" red="1" green="0.85098039215686272" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="OkB-78-ngh" kind="show" id="y7m-bT-iDT"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kii-bI-erb">
                                 <rect key="frame" x="20" y="734.5" width="119" height="72"/>
@@ -42,6 +39,9 @@
                                 <state key="normal" title="ToDo" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="NZs-fV-q95" kind="show" id="lkZ-ID-8Hd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIm-dK-nva">
                                 <rect key="frame" x="275" y="734.5" width="119" height="72"/>
@@ -51,6 +51,9 @@
                                 <state key="normal" title="Future" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lpa-nW-2B1" kind="show" id="AsM-SN-abg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4Y-FG-2Lt">
                                 <rect key="frame" x="20" y="115" width="93" height="30"/>
@@ -93,9 +96,6 @@
                                 <state key="normal" title="Home" backgroundImage="square.grid.4x3.fill" catalog="system">
                                     <color key="titleColor" red="0.34509803921568627" green="0.63529411764705879" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="OkB-78-ngh" kind="show" id="zSa-vW-JtL"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ToDo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvO-Jl-Ukj">
                                 <rect key="frame" x="176" y="20" width="62" height="34"/>
@@ -112,6 +112,9 @@
                                 <state key="normal" title="Help" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UA8-fy-E5F" kind="show" id="MAU-9Z-djO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1a-k6-IH1">
                                 <rect key="frame" x="275" y="736.5" width="119" height="72"/>
@@ -121,6 +124,9 @@
                                 <state key="normal" title="Future" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lpa-nW-2B1" kind="show" id="qLj-ay-QFj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.85098039215686272" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -148,9 +154,6 @@
                                 <state key="normal" title="Home" backgroundImage="square.grid.4x3.fill" catalog="system">
                                     <color key="titleColor" red="0.94901960784313721" green="0.49411764705882355" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="OkB-78-ngh" kind="show" id="GrA-wO-upR"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Future" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tRx-IE-1Zn">
                                 <rect key="frame" x="171" y="20" width="73" height="34"/>
@@ -167,6 +170,9 @@
                                 <state key="normal" title="Help" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UA8-fy-E5F" kind="show" id="tMs-6o-L1d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJA-UW-0CT">
                                 <rect key="frame" x="20" y="737.5" width="119" height="72"/>
@@ -176,7 +182,70 @@
                                 <state key="normal" title="ToDo" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="NZs-fV-q95" kind="show" id="XoT-cc-q9u"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ceo-t7-s3c">
+                                <rect key="frame" x="0.0" y="231" width="414" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.37934251079999998" blue="0.38657994919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">How to choose your major?
+1.Identify your interests, values, passions, and abilities.
+ 2.Consider the amount of open jobs and the salary from the careers that come out of that major.
+3.Choose the right school. 
+4.Spot any disadvantages before choosing a major. 
+</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vS0-cd-fqV">
+                                <rect key="frame" x="-16" y="77" width="238" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Career Colleges" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9O-4j-JVt">
+                                <rect key="frame" x="-16" y="160" width="238" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="How to Choose" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXW-W9-uJk">
+                                <rect key="frame" x="221" y="77" width="176" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Career List" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0Z-TX-9bn">
+                                <rect key="frame" x="218" y="160" width="176" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Major List" backgroundImage="square.fill" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vfX-Yk-Kfa">
+                                <rect key="frame" x="0.0" y="482" width="414" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.37934251079999998" blue="0.38657994919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Your major and career-
+Start by choosing a main focus like technology, engineering, business, etc. then work down from there to find your major then wanted career. Your career will depend on the major you choose in college. While some majors have opportunities for different jobs within them, all the jobs will be similar so choose a major that you enjoy and would like as a job.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.34509803921568627" green="0.63529411764705879" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="q2p-8U-xIL"/>
@@ -185,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gA6-Yl-TBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2687" y="1158"/>
+            <point key="canvasLocation" x="2686.9565217391305" y="1157.8125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -216,9 +285,6 @@
                                 <state key="normal" title=" " backgroundImage="arrow.right" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <segue destination="OkB-78-ngh" kind="show" id="Kmx-lv-cGM"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKOL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hve-ct-3gF">
                                 <rect key="frame" x="123" y="325" width="176" height="90"/>
@@ -236,78 +302,19 @@
             </objects>
             <point key="canvasLocation" x="-117" y="114"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="TCJ-PZ-aJT">
-            <objects>
-                <viewController id="OkB-78-ngh" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pX9-hi-tmh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6z-Z4-kVu">
-                                <rect key="frame" x="134" y="140" width="149" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
-                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="SAT/ACT Help" backgroundImage="circle.grid.hex.fill" catalog="system">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UA8-fy-E5F" kind="show" id="hir-Ee-egn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJp-Ra-Go3">
-                                <rect key="frame" x="138" y="357.5" width="140" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="29"/>
-                                <color key="tintColor" red="1" green="0.85087546550000004" blue="0.43494784600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ToDo" backgroundImage="circle.fill" catalog="system">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="NZs-fV-q95" kind="show" id="e29-dy-STL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLq-bD-xoA">
-                                <rect key="frame" x="119" y="572.5" width="188" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="34"/>
-                                <color key="tintColor" red="0.34638854969999999" green="0.6362428617" blue="0.61565520330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Future" backgroundImage="square.grid.4x3.fill" catalog="system">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="lpa-nW-2B1" kind="show" id="Eal-D5-DER"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SKOL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjV-Ra-jmN">
-                                <rect key="frame" x="124" y="0.0" width="166" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="65"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.17285473464229045" green="0.40872427938869504" blue="0.42054056637512682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="gaF-Jb-cBI"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="d0h-bp-nca"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YV7-Eg-agO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1574" y="80"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="y7m-bT-iDT"/>
+        <segue reference="qLj-ay-QFj"/>
+        <segue reference="XoT-cc-q9u"/>
+        <segue reference="tMs-6o-L1d"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
-        <image name="circle.grid.hex.fill" catalog="system" width="128" height="112"/>
         <image name="right_triangle_1-1" width="189" height="327"/>
         <image name="right_triangle_1-2" width="189" height="327"/>
         <image name="right_triangle_1-3" width="189" height="327"/>
+        <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="square.grid.4x3.fill" catalog="system" width="128" height="87"/>
     </resources>
 </document>
