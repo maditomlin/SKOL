@@ -8,15 +8,14 @@
 
 import UIKit
 
-class FutureViewController: UITableViewController {
+class FutureViewController: UIViewController {
 
 
-   
-    @IBAction func CCButtomTapped(_ sender: Any) {
-    if let url = URL(string: "https://bigfuture.collegeboard.org/explore-careers/careers/hottest-careers-for-college-graduates") {
-                       UIApplication.shared.open(url)
-                   }
-    }
+  @IBAction func CCButtonTapped(_ sender: Any) {
+       if let url = URL(string: "https://bigfuture.collegeboard.org/explore-careers/careers/hottest-careers-for-college-graduates") {
+           UIApplication.shared.open(url)
+       }
+   }
     
     @IBAction func CLButtonTapped(_ sender: Any) {
     if let url = URL(string: "https://bigfuture.collegeboard.org/explore-careers/careers/hottest-careers-for-college-graduates") {

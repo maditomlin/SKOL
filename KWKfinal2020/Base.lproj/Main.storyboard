@@ -261,7 +261,7 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="CCButtomTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="QYk-PS-lze"/>
+                                    <action selector="CCButtonTapped:" destination="lpa-nW-2B1" eventType="touchUpInside" id="kf2-gQ-fiX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9O-4j-JVt">
@@ -315,13 +315,10 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                         <viewLayoutGuide key="safeArea" id="q2p-8U-xIL"/>
                     </view>
                     <navigationItem key="navigationItem" id="xEy-SB-Lcn"/>
-                    <connections>
-                        <outlet property="CCButtonTapped" destination="vS0-cd-fqV" id="ZEx-vS-Jse"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gA6-Yl-TBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2962" y="980"/>
+            <point key="canvasLocation" x="2416" y="621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
