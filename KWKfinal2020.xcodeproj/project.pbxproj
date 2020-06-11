@@ -22,6 +22,7 @@
 		DBAED03C2490015D00AB0B6D /* KWKfinal2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED03B2490015D00AB0B6D /* KWKfinal2020Tests.swift */; };
 		DBAED0472490015D00AB0B6D /* KWKfinal2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED0462490015D00AB0B6D /* KWKfinal2020UITests.swift */; };
 		DBAED05724914F6D00AB0B6D /* FutureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED05624914F6D00AB0B6D /* FutureViewController.swift */; };
+		DBAED05E249299ED00AB0B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAED05D249299ED00AB0B6D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		DBAED0462490015D00AB0B6D /* KWKfinal2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWKfinal2020UITests.swift; sourceTree = "<group>"; };
 		DBAED0482490015D00AB0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBAED05624914F6D00AB0B6D /* FutureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureViewController.swift; sourceTree = "<group>"; };
+		DBAED05D249299ED00AB0B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
+		DBAED05F249299F100AB0B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/AppIcons (1)/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 				DBAED03A2490015D00AB0B6D /* KWKfinal2020Tests */,
 				DBAED0452490015D00AB0B6D /* KWKfinal2020UITests */,
 				DBAED01F2490015700AB0B6D /* Products */,
+				DBAED05D249299ED00AB0B6D /* Assets.xcassets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +122,7 @@
 				DBAED0252490015700AB0B6D /* ViewController.swift */,
 				DBAED0272490015700AB0B6D /* Main.storyboard */,
 				DBAED02D2490015C00AB0B6D /* Assets.xcassets */,
+				DBAED05F249299F100AB0B6D /* Assets.xcassets */,
 				DBAED02F2490015C00AB0B6D /* LaunchScreen.storyboard */,
 				DBAED0322490015C00AB0B6D /* Info.plist */,
 				DBAED02A2490015700AB0B6D /* KWKfinal2020.xcdatamodeld */,
@@ -255,6 +260,7 @@
 			files = (
 				DBAED0312490015C00AB0B6D /* LaunchScreen.storyboard in Resources */,
 				DBAED02E2490015C00AB0B6D /* Assets.xcassets in Resources */,
+				DBAED05E249299ED00AB0B6D /* Assets.xcassets in Resources */,
 				DBAED0292490015700AB0B6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
