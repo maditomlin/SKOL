@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2E2AD719249129B10028EAA2 /* ACT View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2AD718249129B10028EAA2 /* ACT View Controller.swift */; };
+		2EEA2841249176450025D265 /* ToDoTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA2840249176450025D265 /* ToDoTableTableViewController.swift */; };
+		2EEA2843249176780025D265 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA2842249176780025D265 /* ToDo.swift */; };
+		2EEA284524919C980025D265 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA284424919C980025D265 /* AddToDoViewController.swift */; };
+		2EEA28472491AAA90025D265 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA28462491AAA90025D265 /* CompleteToDoViewController.swift */; };
 		DBAED0222490015700AB0B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED0212490015700AB0B6D /* AppDelegate.swift */; };
 		DBAED0242490015700AB0B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED0232490015700AB0B6D /* SceneDelegate.swift */; };
 		DBAED0262490015700AB0B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAED0252490015700AB0B6D /* ViewController.swift */; };
@@ -39,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		2E2AD718249129B10028EAA2 /* ACT View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACT View Controller.swift"; sourceTree = "<group>"; };
+		2EEA2840249176450025D265 /* ToDoTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableTableViewController.swift; sourceTree = "<group>"; };
+		2EEA2842249176780025D265 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		2EEA284424919C980025D265 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		2EEA28462491AAA90025D265 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		DBAED01E2490015700AB0B6D /* KWKfinal2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWKfinal2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAED0212490015700AB0B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBAED0232490015700AB0B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 				DBAED02A2490015700AB0B6D /* KWKfinal2020.xcdatamodeld */,
 				2E2AD718249129B10028EAA2 /* ACT View Controller.swift */,
 				DBAED05624914F6D00AB0B6D /* FutureViewController.swift */,
+				2EEA2840249176450025D265 /* ToDoTableTableViewController.swift */,
+				2EEA2842249176780025D265 /* ToDo.swift */,
+				2EEA284424919C980025D265 /* AddToDoViewController.swift */,
+				2EEA28462491AAA90025D265 /* CompleteToDoViewController.swift */,
 			);
 			path = KWKfinal2020;
 			sourceTree = "<group>";
@@ -268,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EEA2841249176450025D265 /* ToDoTableTableViewController.swift in Sources */,
 				DBAED02C2490015700AB0B6D /* KWKfinal2020.xcdatamodeld in Sources */,
 				DBAED05724914F6D00AB0B6D /* FutureViewController.swift in Sources */,
+				2EEA2843249176780025D265 /* ToDo.swift in Sources */,
+				2EEA284524919C980025D265 /* AddToDoViewController.swift in Sources */,
 				DBAED0262490015700AB0B6D /* ViewController.swift in Sources */,
+				2EEA28472491AAA90025D265 /* CompleteToDoViewController.swift in Sources */,
 				DBAED0222490015700AB0B6D /* AppDelegate.swift in Sources */,
 				2E2AD719249129B10028EAA2 /* ACT View Controller.swift in Sources */,
 				DBAED0242490015700AB0B6D /* SceneDelegate.swift in Sources */,
