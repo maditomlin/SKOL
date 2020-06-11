@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kw9-pa-be3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -42,6 +42,9 @@
                                 <state key="normal" title="ToDo" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Kw9-pa-be3" kind="show" id="790-kB-n3r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIm-dK-nva">
                                 <rect key="frame" x="275" y="734.5" width="119" height="72"/>
@@ -102,12 +105,12 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0aa-Db-cYb">
-                                <rect key="frame" x="0.0" y="215" width="414" height="358"/>
+                                <rect key="frame" x="0.0" y="215" width="414" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96621192889543139" green="0.41086984796897014" blue="0.044299168434491096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Both the ACT and SAT are entrance exams given to students; most universities will accept both exams and base part of the admission decision on this score. 
 The ACT features a science section, focusing primarily on critical thinking skills; this section is not included on the SAT. Both feature specific sections for both math and english.
-The SAT scores test from 400-1600, while the ACT scores range from 1-36. The specific score recommended for each test will depend on the college university you would like to attend. Many university leaders recommend taking both to assess which score reflects your skills better.
+The SAT scores test from 400-1600, while the ACT scores range from 1-36. The specific score recommended for each test will depend on the college university you would like to attend. Many university leaders recommend taking both to assess which score better reflects your skills.
 </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -232,16 +235,19 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                 <state key="normal" title="ToDo" backgroundImage="circle.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Kw9-pa-be3" kind="show" id="KLr-HD-I2A"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ceo-t7-s3c">
-                                <rect key="frame" x="0.0" y="231" width="414" height="229"/>
+                                <rect key="frame" x="0.0" y="231" width="414" height="255.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.37934251079999998" blue="0.38657994919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">How to choose your major?
-1.Identify your interests, values, passions, and abilities.
- 2.Consider the amount of open jobs and the salary from the careers that come out of that major.
-3.Choose the right school. 
-4.Spot any disadvantages before choosing a major. 
+1. Identify your interests, values, passions, and abilities.
+ 2. Consider the amount of open jobs and the salary from the careers that come out of that major.
+3. Choose the right school. 
+4. Spot any disadvantages before choosing a major. 
 </string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -288,7 +294,7 @@ The SAT scores test from 400-1600, while the ACT scores range from 1-36. The spe
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.37934251079999998" blue="0.38657994919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Your major and career-
-Start by choosing a main focus like technology, engineering, business, etc. then work down from there to find your major then wanted career. Your career will depend on the major you choose in college. While some majors have opportunities for different jobs within them, all the jobs will be similar so choose a major that you enjoy and would like as a job.</string>
+Start by choosing a main focus like technology, engineering, business, etc. Next, work to find your major and wanted career. Your career will depend on the major you choose in college. While some majors have opportunities for different jobs within them, all the jobs will be similar. Choose a major that you enjoy and would like as a job!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -376,7 +382,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                                 <rect key="frame" x="134" y="140" width="149" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
-                                <color key="tintColor" red="0.9496946383" green="0.4948681076" blue="0.15473498350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94901960784313721" green="0.49411764705882355" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="SAT/ACT Help" backgroundImage="circle.grid.hex.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -452,6 +458,11 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                             <outlet property="delegate" destination="hoU-b8-scf" id="NaA-Db-2Os"/>
                         </connections>
                     </tableView>
+                    <toolbarItems>
+                        <barButtonItem title="Item" image="house" catalog="system" id="kkh-2v-hey">
+                            <color key="tintColor" red="0.34509803919999998" green="0.63529411759999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="ToDo List" id="0EX-Fd-D0W">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="nue-1h-4Cf">
                             <color key="tintColor" red="0.34509803919999998" green="0.63529411759999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -460,6 +471,7 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="Knm-kF-YAQ" kind="show" identifier="moveToComplete" id="U2a-yz-lIQ"/>
                     </connections>
@@ -564,10 +576,10 @@ Start by choosing a main focus like technology, engineering, business, etc. then
                                     <action selector="completeTapped:" destination="Knm-kF-YAQ" eventType="touchUpInside" id="FlT-W1-zit"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4t-EW-wrB">
-                                <rect key="frame" x="175" y="242" width="64" height="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4t-EW-wrB">
+                                <rect key="frame" x="175" y="242" width="59" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="26"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                 <color key="textColor" red="0.94901960780000005" green="0.4941176471" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -586,15 +598,17 @@ Start by choosing a main focus like technology, engineering, business, etc. then
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QjF-gy-nAH"/>
-        <segue reference="JJ9-Pm-E5C"/>
-        <segue reference="b1X-bH-9Qa"/>
+        <segue reference="KLr-HD-I2A"/>
+        <segue reference="0W2-yE-pIf"/>
+        <segue reference="AsM-SN-abg"/>
+        <segue reference="tMs-6o-L1d"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.34509803919999998" green="0.63529411759999999" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="circle.fill" catalog="system" width="128" height="121"/>
         <image name="circle.grid.hex.fill" catalog="system" width="128" height="112"/>
+        <image name="house" catalog="system" width="128" height="110"/>
         <image name="right_triangle_1-1" width="189" height="327"/>
         <image name="right_triangle_1-2" width="189" height="327"/>
         <image name="right_triangle_1-3" width="189" height="327"/>
